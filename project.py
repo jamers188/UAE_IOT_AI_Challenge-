@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 from PIL import Image
 import base64
 import os
@@ -268,7 +268,7 @@ def main():
     # Add LED line at the top
     st.markdown('<div class="led-line"></div>', unsafe_allow_html=True)
 
-    st.sidebar.image("", use_column_width=True)
+    st.sidebar.image("Auranox.png", use_column_width=True)
     page = st.sidebar.selectbox("**MENU**",
                                 ["♖ Introduction", "🧠 Wellness Mentor", "📝 Medical Report Analysis", "💊 Drug Details",
                                  "🧑‍⚕️ Expert Advice", "⚖️ Privacy Policy"])
